@@ -1,7 +1,14 @@
+import TransactionsCard from "./components/TransactionsCard"
 
 function App() {
   return (
-    <h1>Hello Word</h1>
+    <main>
+      <section id="transactions">
+        <div className="container">
+          <TransactionsCard />
+        </div>
+      </section>
+    </main>
   )
 }
 
