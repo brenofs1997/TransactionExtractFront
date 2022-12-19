@@ -26,6 +26,18 @@
     font-size: 18px;
   }
   
+  .red-btn {
+    width: 100px;
+    height: 46px;
+    background: rgba(255, 107, 114, 0.1);
+    border: 1px solid #ff6b72;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
   .transactions-table {
     width: 100%;
     border-spacing: 0;
